@@ -11,18 +11,35 @@ import Header from "@SS/design-system/src/components/typography/Header";
 import Billboard from "@SS/design-system/src/components/typography/Billboard";
 import Logo from "@SS/design-system/src/components/iconography/Logo";
 import Page from "./shared/Page.jsx";
+// import {
+//   colors,
+//   colorsAbstract
+// } from "@SS/deaign-system/src/components/color/colorStyles";
+
 const HomePage = ({ children, ...rest }) => (
   <Page>
-    s
     <Box>
       <Box width="8px" backgroundColor="silver" />
 
       <Box width="4px" backgroundColor="gold" />
 
       <Box width="8px" backgroundColor="periwinkle" />
-      <Box backgroundColor="gray" justifyContent="center" alignItems="center">
-        <Logo label="SSw" color="white" />
-        <Billboard color="white">Silver Softwerks</Billboard>{" "}
+      <Box
+        backgroundColor="gray"
+        flexDirection="column"
+        justifyContent="center"
+        alignItems="center"
+      >
+        <Logo label="SS" color="white" />
+        <Box
+          height="fit-contents"
+          justifyContent="flex-end"
+          alignItems="flex-end"
+        >
+          <Header paddingRight="16px" color="white">
+            Silver Softwerks
+          </Header>
+        </Box>
       </Box>
     </Box>
     <Box>
@@ -57,7 +74,7 @@ const HomePage = ({ children, ...rest }) => (
         padding="16px"
       >
         <Header accented>Contact Us</Header>
-        <Box flexDirection="column">
+        <Box flexDirection="column" padding="16px">
           <Box
             flexDirection="column"
             paddingBottom="16px"
