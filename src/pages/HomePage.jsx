@@ -8,7 +8,6 @@ import Link from "@SS/design-system/src/components/interactives/Link";
 
 import Button from "@SS/design-system/src/components/interactives/Button";
 import Header from "@SS/design-system/src/components/typography/Header";
-import Billboard from "@SS/design-system/src/components/typography/Billboard";
 import Logo from "../components/Logo";
 import Page from "./shared/Page.jsx";
 
