@@ -9,7 +9,7 @@ import Link from "@SS/design-system/src/components/interactives/Link";
 import Button from "@SS/design-system/src/components/interactives/Button";
 import Header from "@SS/design-system/src/components/typography/Header";
 import Logo from "../components/Logo";
-import Page from "./shared/Page.jsx";
+import Page from "@SS/design-system/src/components/layout/Page.jsx";
 
 import {
   colors,
